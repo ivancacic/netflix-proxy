@@ -271,7 +271,7 @@ apt-get update\
 6. Enjoy or try `#netflix-proxy` on [freenode](https://webchat.freenode.net/?channels=netflix-proxy) for help.
 
 ### Microsoft Azure (advanced)
-The following **has not been tested** and is based on a standard Ubuntu image provided by `Microsoft Azure` using `cloud-harness` automation tool I wrote a while back and assumes an empty `Microsoft Azure` subscription. Also, because Azure [block ICMP](https://blogs.msdn.microsoft.com/mast/2014/06/22/use-port-pings-instead-of-icmp-to-test-azure-vm-connectivity/) thorough the load-balancer and don't offer native IPv6 support, IPv6 isn't going to work.
+The following **has not been tested** and is based on a standard Ubuntu image provided by `Microsoft Azure` using `cloud-harness` automation tool I wrote a while back and assumes an empty `Microsoft Azure` subscription. Also, because Azure [block ICMP](https://blogs.msdn.microsoft.com/mast/2014/06/22/use-port-pings-instead-of-icmp-to-test-azure-vm-connectivity/) through the load-balancer and don't offer native IPv6 support, IPv6 isn't going to work.
 
 1. Head over to [Microsoft Azure](https://azure.microsoft.com/en-gb/) and sign-up for an account.
 2. Get [Python](https://www.python.org/downloads/).
